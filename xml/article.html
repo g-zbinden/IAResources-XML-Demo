@@ -1,57 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="application/xslt+xml" href="/REPO_NAME/xsl/html.xsl"?>
-<article xml:lang="en"
-         xmlns:xlink="http://www.w3.org/1999/xlink">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Quality-controlled XML workflow for publication</title>
+  <link rel="stylesheet" href="../css/site.css" />
+</head>
+<body>
+  <header>
+    <h1>Quality-controlled XML workflow for publication</h1>
+    <div class="article-meta">
+      <strong>Author:</strong> Gustavo Alonso
+      · <strong>Date:</strong> 2025-10-15
+      · <strong>Lang:</strong> en
+    </div>
+  </header>
 
-  <meta>
-    <author>Gustavo Alonso</author>
-    <date>2025-10-15</date>
-    <keywords>XML, XSLT, Publication, QA, Accessibility</keywords>
-  </meta>
+  <main>
+    <section>
+      <h2>Abstract</h2>
+      <p>This demo shows an editorial XML converted into accessible HTML via XSLT, styled with CSS and deployable on GitHub Pages.</p>
+    </section>
 
-  <abstract>
-    This demo shows an editorial XML converted into accessible HTML via XSLT,
-    styled with CSS and deployable on GitHub Pages.
-  </abstract>
+    <section id="intro">
+      <h2>Introduction</h2>
+      <p>Preparing, structuring and validating XML before publication requires both editorial sensitivity and robust technical skills.</p>
+      <p>This example reflects a clean separation of concerns: <strong>XML</strong> for content, <em>XSLT</em> for presentation, and <code>CSS</code> for styling.</p>
+    </section>
 
-  <section id="intro">
-    <title>Introduction</title>
-    <p>Preparing, structuring and validating XML before publication requires both editorial sensitivity and robust technical skills.</p>
-    <p>This example reflects a clean separation of concerns: <strong>XML</strong> for content, <em>XSLT</em> for presentation, and <code>CSS</code> for styling.</p>
-  </section>
+    <section id="features">
+      <h2>Key features</h2>
+      <ul>
+        <li>Semantic XML structure (title, meta, sections, references)</li>
+        <li>XSLT 1.0 transform to standards-compliant HTML5</li>
+        <li>Accessible markup (headings, alt text, landmarks)</li>
+        <li>Simple, portable CSS with dark theme</li>
+      </ul>
+    </section>
 
-  <section id="features">
-    <title>Key features</title>
-    <list>
-      <item>Semantic XML structure (title, meta, sections, references)</item>
-      <item>XSLT 1.0 transform to standards-compliant HTML5</item>
-      <item>Accessible markup (headings, alt text, landmarks)</item>
-      <item>Simple, portable CSS with dark theme</item>
-    </list>
-  </section>
+    <section id="example">
+      <h2>Example figure</h2>
+      <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Markdown-mark.svg" alt="Markdown logo" />
+        <figcaption>Sample external image with caption.</figcaption>
+      </figure>
+      <p>You can replace the image with a local asset if needed.</p>
+    </section>
 
-  <section id="example">
-    <title>Example figure</title>
-    <figure src="https://upload.wikimedia.org/wikipedia/commons/3/38/Markdown-mark.svg"
-            alt="Markdown logo">
-      <caption>Sample external image with caption.</caption>
-    </figure>
-    <p>You can replace the image with a local asset if needed.</p>
-  </section>
+    <section id="references">
+      <h2>References</h2>
+      <ol>
+        <li>
+          W3C (1999) — <em>XSL Transformations (XSLT) Version 1.0</em>.
+          <a href="https://www.w3.org/TR/xslt" target="_blank" rel="noopener">Link</a>
+        </li>
+        <li>
+          W3C (2008) — <em>Extensible Markup Language (XML) 1.0 (Fifth Edition)</em>.
+          <a href="https://www.w3.org/TR/xml" target="_blank" rel="noopener">Link</a>
+        </li>
+      </ol>
+    </section>
+  </main>
 
-  <references>
-    <ref>
-      <author>W3C</author>
-      <year>1999</year>
-      <title>XSL Transformations (XSLT) Version 1.0</title>
-      <url>https://www.w3.org/TR/xslt</url>
-    </ref>
-    <ref>
-      <author>W3C</author>
-      <year>2008</year>
-      <title>Extensible Markup Language (XML) 1.0 (Fifth Edition)</title>
-      <url>https://www.w3.org/TR/xml</url>
-    </ref>
-  </references>
-</article>
+  <footer>© IA Resources Switzerland — All rights reserved.</footer>
+</body>
+</html>
+
