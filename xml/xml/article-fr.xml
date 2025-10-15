@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xslt+xml" href="/IAResources-XML-Demo/xsl/html.xsl"?>
+<article xml:lang="fr"
+         xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Flux de publication XML contrôlé qualité</title>
+
+  <meta>
+    <author>Gustavo Alonso</author>
+    <date>2025-10-15</date>
+    <keywords>XML, XSLT, Publication, Contrôle qualité, Accessibilité</keywords>
+  </meta>
+
+  <abstract>
+    Cette démo illustre un flux éditorial où un XML sémantique est
+    transformé en HTML accessible via XSLT et stylé avec CSS, prêt à être
+    déployé sur GitHub Pages.
+  </abstract>
+
+  <section id="intro">
+    <title>Introduction</title>
+    <p>La préparation, la structuration et la validation du XML avant publication exigent à la fois une sensibilité éditoriale et des compétences techniques solides.</p>
+    <p>Cet exemple reflète une séparation claire des responsabilités : <strong>XML</strong> pour le contenu, <em>XSLT</em> pour la présentation et <code>CSS</code> pour le style.</p>
+  </section>
+
+  <section id="features">
+    <title>Fonctionnalités clés</title>
+    <list>
+      <item>Structure XML sémantique (titre, métadonnées, sections, références)</item>
+      <item>Transformation XSLT 1.0 vers un HTML5 conforme aux standards</item>
+      <item>Balises accessibles (titres, texte alternatif, zones de repérage)</item>
+      <item>Feuilles de style simples et portables avec thème sombre</item>
+    </list>
+  </section>
+
+  <section id="example">
+    <title>Exemple de figure</title>
+    <figure src="https://upload.wikimedia.org/wikipedia/commons/3/38/Markdown-mark.svg"
+            alt="Logo Markdown">
+      <caption>Image externe avec légende (exemple).</caption>
+    </figure>
+    <p>Vous pouvez remplacer cette image par une ressource locale si nécessaire.</p>
+  </section>
+
+  <references>
+    <ref>
+      <author>W3C</author>
+      <year>1999</year>
+      <title>XSL Transformations (XSLT) Version 1.0</title>
+      <url>https://www.w3.org/TR/xslt</url>
+    </ref>
+    <ref>
+      <author>W3C</author>
+      <year>2008</year>
+      <title>Extensible Markup Language (XML) 1.0 (Fifth Edition)</title>
+      <url>https://www.w3.org/TR/xml</url>
+    </ref>
+  </references>
+</article>
