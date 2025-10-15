@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../xsl/html.xsl"?>
+<?xml-stylesheet type="application/xslt+xml" href="/IAResources-XML-Demo/xsl/html.xsl"?>
+
 <article xml:lang="en"
          xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Quality-controlled XML workflow for publication</title>
