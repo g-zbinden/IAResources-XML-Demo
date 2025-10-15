@@ -1,26 +1,23 @@
-# IAResources-XML-Demo
-# XML Publication Demo (XML → XSLT → HTML)
+# XML → XSLT → HTML (Publication Demo)
 
 This repository demonstrates a clean XML publication workflow:
 - Authoring in **XML** with semantic structure
-- **XSLT** transformation to accessible **HTML5**
-- Simple **CSS** for publication styling
-- Designed to be browsable on **GitHub Pages**
+- **XSLT 1.0** transformation to **HTML5**
+- Minimal **CSS** styling
+- Deployable on **GitHub Pages**
 
-## Files
-- `xml/article.xml` — Source XML (with processing instruction to load `xsl/html.xsl`)
-- `xsl/html.xsl` — XSLT 1.0 transforming XML → HTML5
-- `css/site.css` — Minimal styles
-- `index.html` — Project overview (landing)
+## Live demo
+- XML (browser transforms via XSL): `/xml/article.xml`
+- Static HTML (always works): `/xml/article.html`
 
-## How to view
-1) Enable **GitHub Pages**: Settings → Pages → Deploy from a branch → Branch: `main` / `(root)`
-2) Open: `https://<your-user>.github.io/IAResources-XML-Demo/xml/article.xml`
-   The browser will apply the XSL and render HTML.
+## How to view on GitHub Pages
+1) Settings → Pages → Deploy from a branch → Branch: `main` / `(root)` → **Save**
+2) Open:
+   - `https://<your-user>.github.io/IAResources-XML-Demo/xml/article.xml`
+   - `https://<your-user>.github.io/IAResources-XML-Demo/xml/article.html`
 
-## Notes
-- Standards: XML 1.0, XSLT 1.0, HTML5, UTF-8.
-- Accessibility: landmarks, headings, alt text.
-- Internationalization-ready (en/fr/es).
+> If the XML appears blank, use the static HTML. Also ensure `.nojekyll` exists in the repo root.
 
-© IA Resources Switzerland — All rights reserved.
+**Standards**: XML 1.0, XSLT 1.0, HTML5, UTF-8  
+**License/notice**: © IA Resources Switzerland — All rights reserved.
+
