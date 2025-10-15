@@ -9,8 +9,7 @@ header h1{margin:0 0 10px}
 section{background:var(--card);border:1px solid #23325a;border-radius:12px;padding:16px;margin:16px 0}
 ul{margin-left:20px}
 code,pre{background:#0e1730;border:1px solid #23325a;border-radius:8px;padding:2px 6px}
-article{display:block}
 .article-meta{font-size:.95rem;color:var(--muted);margin-bottom:12px}
-h1,h2,h3{scroll-margin-top:80px}
 figure{margin:16px 0}
 figcaption{color:var(--muted);font-size:.9rem}
+
