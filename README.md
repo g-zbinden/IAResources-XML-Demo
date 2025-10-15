@@ -6,18 +6,56 @@ This repository demonstrates a clean XML publication workflow:
 - Minimal **CSS** styling
 - Deployable on **GitHub Pages**
 
-## Live demo
-- XML (browser transforms via XSL): `/xml/article.xml`
-- Static HTML (always works): `/xml/article.html`
+---
 
-## How to view on GitHub Pages
-1) Settings → Pages → Deploy from a branch → Branch: `main` / `(root)` → **Save**
-2) Open:
-   - `https://<your-user>.github.io/IAResources-XML-Demo/xml/article.xml`
-   - `https://<your-user>.github.io/IAResources-XML-Demo/xml/article.html`
+## 🚀 Live demos (GitHub Pages)
 
-> If the XML appears blank, use the static HTML. Also ensure `.nojekyll` exists in the repo root.
+> ⚠️ Note: several browsers disable XSLT for remote files.  
+> If an XML page looks unstyled, use the **static HTML** version (always works).
 
-**Standards**: XML 1.0, XSLT 1.0, HTML5, UTF-8  
-**License/notice**: © IA Resources Switzerland — All rights reserved.
+### English
+- XML (browser applies XSL):  
+  https://g-zbinden.github.io/IAResources-XML-Demo/xml/article.xml  
+- Static HTML (recommended / always works):  
+  https://g-zbinden.github.io/IAResources-XML-Demo/xml/article.html
+
+### Français
+- XML (XSL dans le navigateur) :  
+  https://g-zbinden.github.io/IAResources-XML-Demo/xml/article-fr.xml  
+- HTML statique (recommandé) :  
+  https://g-zbinden.github.io/IAResources-XML-Demo/xml/article-fr.html
+
+---
+
+## 📂 Structure
+
+/
+├─ css/
+│ └─ site.css
+├─ xsl/
+│ └─ html.xsl
+├─ xml/
+│ ├─ article.xml
+│ ├─ article.html
+│ ├─ article-fr.xml
+│ └─ article-fr.html
+├─ .nojekyll
+└─ index.html
+
+
+---
+
+## 🔧 Publish on GitHub Pages
+1. **Settings → Pages**  
+2. *Source*: **Deploy from a branch**  
+3. *Branch*: `main` · *Folder*: `/ (root)` → **Save**  
+4. Ensure a file named **`.nojekyll`** exists at the repo root.
+
+---
+
+## 📝 Notes
+- Standards: **XML 1.0**, **XSLT 1.0**, **HTML5**, **UTF-8**  
+- XSL link in XML uses an absolute path to this repo (Pages subpath).  
+- Legal: **2025 © Gonzalo Zbinden — All rights reserved.**
+
 
