@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:xml="http://www.w3.org/XML/1998/namespace">
 
-  <xsl:output method="html" encoding="UTF-8" indent="yes" />
+  <xsl:output method="html" encoding="UTF-8" indent="yes"/>
   <xsl:strip-space elements="*"/>
 
   <!-- Root template -->
   <xsl:template match="/">
     <html lang="{/article/@xml:lang}">
       <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title><xsl:value-of select="/article/title"/></title>
         <link rel="stylesheet" href="../css/site.css"/>
       </head>
@@ -56,20 +57,13 @@
     </section>
   </xsl:template>
 
-  <xsl:template match="p">
-    <p><xsl:apply-templates/></p>
-  </xsl:template>
-
+  <xsl:template match="p"><p><xsl:apply-templates/></p></xsl:template>
   <xsl:template match="em"><em><xsl:apply-templates/></em></xsl:template>
   <xsl:template match="strong"><strong><xsl:apply-templates/></strong></xsl:template>
   <xsl:template match="code"><code><xsl:apply-templates/></code></xsl:template>
 
-  <xsl:template match="list">
-    <ul><xsl:apply-templates select="item"/></ul>
-  </xsl:template>
-  <xsl:template match="item">
-    <li><xsl:apply-templates/></li>
-  </xsl:template>
+  <xsl:template match="list"><ul><xsl:apply-templates select="item"/></ul></xsl:template>
+  <xsl:template match="item"><li><xsl:apply-templates/></li></xsl:template>
 
   <xsl:template match="figure">
     <figure>
@@ -90,3 +84,4 @@
   </xsl:template>
 
 </xsl:stylesheet>
+
