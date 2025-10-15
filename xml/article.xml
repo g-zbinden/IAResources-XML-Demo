@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/html.xsl"?>
+<article xml:lang="en"
+         xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Quality-controlled XML workflow for publication</title>
+
+  <meta>
+    <author>Gustavo Alonso</author>
+    <date>2025-10-15</date>
+    <keywords>XML, XSLT, Publication, QA, Accessibility</keywords>
+  </meta>
+
+  <abstract>
+    This demo shows an editorial XML converted into accessible HTML via XSLT,
+    styled with CSS and deployable on GitHub Pages.
+  </abstract>
+
+  <section id="intro">
+    <title>Introduction</title>
+    <p>Preparing, structuring and validating XML before publication requires both editorial sensitivity and robust technical skills.</p>
+    <p>This example reflects a clean separation of concerns: <strong>XML</strong> for content, <em>XSLT</em> for presentation, and <code>CSS</code> for styling.</p>
+  </section>
+
+  <section id="features">
+    <title>Key features</title>
+    <list>
+      <item>Semantic XML structure (title, meta, sections, references)</item>
+      <item>XSLT 1.0 transform to standards-compliant HTML5</item>
+      <item>Accessible markup (headings, alt text, landmarks)</item>
+      <item>Simple, portable CSS with dark theme</item>
+    </list>
+  </section>
+
+  <section id="example">
+    <title>Example figure</title>
+    <figure src="https://upload.wikimedia.org/wikipedia/commons/3/38/Markdown-mark.svg"
+            alt="Markdown logo">
+      <caption>Sample external image with caption.</caption>
+    </figure>
+    <p>You can replace the image with a local asset if needed.</p>
+  </section>
+
+  <references>
+    <ref>
+      <author>W3C</author>
+      <year>1999</year>
+      <title>XSL Transformations (XSLT) Version 1.0</title>
+      <url>https://www.w3.org/TR/xslt</url>
+    </ref>
+    <ref>
+      <author>W3C</author>
+      <year>2008</year>
+      <title>Extensible Markup Language (XML) 1.0 (Fifth Edition)</title>
+      <url>https://www.w3.org/TR/xml</url>
+    </ref>
+  </references>
+</article>
